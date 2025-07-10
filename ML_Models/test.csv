@@ -1,0 +1,376 @@
+date,product_name,units_sold,day_of_week,region,product_category
+2023-01-07,Hot Water Bag,112,Saturday,South,Healthcare
+2023-01-08,Scarf,126,Sunday,South,Clothing
+2023-01-12,Air Conditioner (AC),86,Thursday,North,Home Appliance
+2023-01-14,Lip Balm,48,Saturday,West,Personal Care
+2023-01-16,Onam Sadya Kit,29,Monday,Central,Food Combo
+2023-01-23,Perfume Bottles,50,Monday,South,Gifting
+2023-01-25,Air Conditioner (AC),87,Wednesday,North,Home Appliance
+2023-01-29,Pongal Sweet Pack,131,Sunday,North,Sweets
+2023-01-29,Flower Garland,120,Sunday,North,Festival Utility
+2023-01-29,Mithai Box,93,Sunday,Central,Sweets
+2023-02-01,LED String Lights,91,Wednesday,Central,Home Decor
+2023-02-07,Gift Boxes,91,Tuesday,West,Gifting
+2023-02-08,Water Bottle,94,Wednesday,South,Kitchen Utility
+2023-02-09,Rangoli Colors,124,Thursday,East,Festival Utility
+2023-02-09,Fan,76,Thursday,West,Home Appliance
+2023-02-09,Dry Fruits,77,Thursday,Central,Gifting
+2023-02-12,Flower Garland,104,Sunday,West,Festival Utility
+2023-02-14,Air Conditioner (AC),62,Tuesday,North,Home Appliance
+2023-02-15,Decorative Wreath,100,Wednesday,Central,Home Decor
+2023-02-16,Fruit Cake,131,Thursday,West,Food
+2023-02-26,White Kurtas,93,Sunday,Central,Clothing
+2023-02-26,Umbrella,107,Sunday,North,Rain Gear
+2023-02-28,Scarf,98,Tuesday,North,Clothing
+2023-03-01,Decorative Wreath,75,Wednesday,South,Home Decor
+2023-03-08,Pongal Sweet Pack,97,Wednesday,North,Sweets
+2023-03-10,Water Bottle,96,Friday,South,Kitchen Utility
+2023-03-11,Chocolate Box,55,Saturday,South,Gifting/Sweets
+2023-03-11,Sweater,66,Saturday,East,Clothing
+2023-03-23,Scarf,79,Thursday,South,Clothing
+2023-03-23,Flower Garland,81,Thursday,East,Festival Utility
+2023-03-29,Air Conditioner (AC),84,Wednesday,East,Home Appliance
+2023-03-30,Air Conditioner (AC),91,Thursday,West,Home Appliance
+2023-04-01,Raincoat,126,Saturday,North,Rain Gear
+2023-04-01,Pongal Sweet Pack,81,Saturday,West,Sweets
+2023-04-02,Cold Drink,53,Sunday,West,Beverage
+2023-04-05,Rakhi Thread,155,Wednesday,South,Festival Utility
+2023-04-05,Onam Sadya Kit,140,Wednesday,Central,Food Combo
+2023-04-12,Rangoli Colors,138,Wednesday,North,Festival Utility
+2023-04-13,Odomos (mosquito repellent),81,Thursday,North,Personal Care
+2023-04-13,Gift Boxes,157,Thursday,Central,Gifting
+2023-04-18,Raincoat,113,Tuesday,South,Rain Gear
+2023-04-19,Ice Cream,62,Wednesday,South,Dessert
+2023-04-25,Brass Pot,132,Tuesday,North,Festival Utility
+2023-04-26,White Kurtas,102,Wednesday,East,Clothing
+2023-04-26,Rangoli Colors,144,Wednesday,East,Festival Utility
+2023-04-28,Onam Sadya Kit,141,Friday,North,Food Combo
+2023-05-01,White Clothing,52,Monday,North,Clothing
+2023-05-04,Cold Drink,152,Thursday,East,Beverage
+2023-05-04,Fruit Cake,97,Thursday,West,Food
+2023-05-10,Ganesh Idol,107,Wednesday,West,Festival Utility
+2023-05-13,Banana Chips Pack,136,Saturday,Central,Snack
+2023-05-15,Personal Care Kit,73,Monday,Central,Gifting
+2023-05-16,Waterproof Boots,137,Tuesday,West,Footwear
+2023-05-18,Rakhi Thread,104,Thursday,South,Festival Utility
+2023-05-28,Blanket,40,Sunday,North,Home Utility
+2023-05-29,Modak Box,91,Monday,East,Sweets
+2023-05-31,Sewaiya Packets,85,Wednesday,Central,Sweets
+2023-05-31,Traditional Dhoti,130,Wednesday,West,Clothing
+2023-05-31,Body Oil,131,Wednesday,South,Personal Care
+2023-06-03,Agarbatti (Incense),79,Saturday,North,Spiritual Item
+2023-06-04,Onam Sadya Kit,137,Sunday,North,Food Combo
+2023-06-04,Holi Colors,107,Sunday,South,Festival Utility
+2023-06-14,Banana Chips Pack,83,Wednesday,East,Snack
+2023-06-14,Personal Care Kit,84,Wednesday,West,Gifting
+2023-06-17,Kurta Pajama Set,97,Saturday,North,Clothing
+2023-06-18,Rakhi Thread,113,Sunday,West,Festival Utility
+2023-06-18,Decorative Wreath,108,Sunday,Central,Home Decor
+2023-06-19,Modak Box,93,Monday,West,Sweets
+2023-06-21,Dry Fruits,117,Wednesday,East,Gifting
+2023-06-27,Sweet Box,120,Tuesday,North,Sweets
+2023-07-05,Electric Lights,65,Wednesday,Central,Home Decor
+2023-07-05,Sugarcane Stick,122,Wednesday,Central,Food/Festival
+2023-07-06,Personal Care Kit,63,Thursday,North,Gifting
+2023-07-06,Dry Fruits Box,117,Thursday,West,Gifting
+2023-07-11,Fruit Cake,121,Tuesday,North,Food
+2023-07-15,Holi Colors,103,Saturday,South,Festival Utility
+2023-07-20,Rangoli Colors,81,Thursday,West,Festival Utility
+2023-07-21,Umbrella,125,Friday,East,Rain Gear
+2023-07-21,Lip Balm,90,Friday,Central,Personal Care
+2023-07-24,Dry Fruits,78,Monday,North,Gifting
+2023-07-25,Umbrella,97,Tuesday,East,Rain Gear
+2023-07-25,Rangoli Colors,97,Tuesday,Central,Festival Utility
+2023-07-25,Traditional Dhoti,57,Tuesday,West,Clothing
+2023-07-25,Body Oil,105,Tuesday,South,Personal Care
+2023-08-03,Sweet Box,188,Thursday,Central,Sweets
+2023-08-08,Ganesh Idol,90,Tuesday,East,Festival Utility
+2023-08-08,Air Conditioner (AC),108,Tuesday,West,Home Appliance
+2023-08-11,White Clothing,47,Friday,South,Clothing
+2023-08-13,Sugarcane Stick,109,Sunday,South,Food/Festival
+2023-08-13,Blanket,120,Sunday,West,Home Utility
+2023-08-19,Gift Wrapping Paper,67,Saturday,West,Festival Utility
+2023-08-20,Fan,117,Sunday,South,Home Appliance
+2023-08-20,Flower Garland,96,Sunday,South,Festival Utility
+2023-08-21,Water Gun (Pichkari),89,Monday,West,Toys/Festival
+2023-08-26,Lip Balm,132,Saturday,West,Personal Care
+2023-08-28,Agarbatti (Incense),84,Monday,North,Spiritual Item
+2023-08-29,White Clothing,137,Tuesday,South,Clothing
+2023-09-01,Umbrella,108,Friday,West,Rain Gear
+2023-09-02,Body Oil,89,Saturday,North,Personal Care
+2023-09-03,White Clothing,148,Sunday,Central,Clothing
+2023-09-05,Water Gun (Pichkari),98,Tuesday,South,Toys/Festival
+2023-09-06,Ganesh Idol,76,Wednesday,Central,Festival Utility
+2023-09-07,Kurta Pajama Set,104,Thursday,South,Clothing
+2023-09-07,Chocolate Gift Boxes,54,Thursday,Central,Gifting
+2023-09-08,Sewaiya Packets,79,Friday,Central,Sweets
+2023-09-09,Sugarcane Stick,78,Saturday,West,Food/Festival
+2023-09-10,Ice Cream,106,Sunday,West,Dessert
+2023-09-12,Gift Wrapping Paper,107,Tuesday,North,Festival Utility
+2023-09-15,Brass Pot,51,Friday,West,Festival Utility
+2023-09-19,Sweater,58,Tuesday,South,Clothing
+2023-09-20,Perfume Bottles,95,Wednesday,South,Gifting
+2023-09-24,Chocolate Gift Boxes,90,Sunday,South,Gifting
+2023-09-24,Deodorant (Dio),93,Sunday,Central,Personal Care
+2023-09-25,Gift Box,94,Monday,South,Gifting
+2023-09-26,Personal Care Kit,129,Tuesday,Central,Gifting
+2023-09-29,Traditional Dhoti,97,Friday,South,Clothing
+2023-10-01,Air Conditioner (AC),84,Sunday,North,Home Appliance
+2023-10-02,Mithai Box,77,Monday,Central,Sweets
+2023-10-05,Waterproof Boots,83,Thursday,South,Footwear
+2023-10-08,Air Conditioner (AC),92,Sunday,Central,Home Appliance
+2023-10-09,Brass Pot,140,Monday,East,Festival Utility
+2023-10-09,Cold Drink,154,Monday,East,Beverage
+2023-10-11,White Kurtas,110,Wednesday,North,Clothing
+2023-10-17,Santa Hat,110,Tuesday,Central,Apparel
+2023-10-17,Personal Care Kit,83,Tuesday,East,Gifting
+2023-10-18,Pongal Sweet Pack,84,Wednesday,South,Sweets
+2023-10-25,Sunscreen,77,Wednesday,East,Personal Care
+2023-10-26,Holi Colors,119,Thursday,North,Festival Utility
+2023-10-27,Agarbatti (Incense),203,Friday,North,Spiritual Item
+2023-10-27,Rangoli Colors,86,Friday,North,Festival Utility
+2023-10-28,White Kurtas,81,Saturday,South,Clothing
+2023-10-31,Flower Garland,79,Tuesday,Central,Festival Utility
+2023-10-31,Sewaiya Packets,98,Tuesday,South,Sweets
+2023-11-07,Sunscreen,108,Tuesday,South,Personal Care
+2023-11-08,Deodorant (Dio),162,Wednesday,East,Personal Care
+2023-11-11,Lip Balm,122,Saturday,West,Personal Care
+2023-11-13,Rangoli Colors,102,Monday,South,Festival Utility
+2023-11-14,Hot Water Bag,117,Tuesday,East,Healthcare
+2023-11-14,Chocolate Gift Boxes,182,Tuesday,West,Gifting
+2023-11-20,Holi Colors,108,Monday,South,Festival Utility
+2023-11-20,Fruit Cake,138,Monday,East,Food
+2023-11-23,Sunscreen,63,Thursday,West,Personal Care
+2023-11-23,Umbrella,62,Thursday,West,Rain Gear
+2023-11-25,Sewaiya Packets,125,Saturday,West,Sweets
+2023-11-27,Fan,105,Monday,North,Home Appliance
+2023-12-01,Raincoat,158,Friday,East,Rain Gear
+2023-12-05,Dry Fruits,64,Tuesday,South,Gifting
+2023-12-08,Sugarcane Stick,112,Friday,Central,Food/Festival
+2023-12-09,Deodorant (Dio),117,Saturday,Central,Personal Care
+2023-12-12,Umbrella,111,Tuesday,West,Rain Gear
+2023-12-12,Lip Balm,95,Tuesday,West,Personal Care
+2023-12-13,Umbrella,100,Wednesday,North,Rain Gear
+2023-12-15,Fan,115,Friday,Central,Home Appliance
+2023-12-17,Water Gun (Pichkari),97,Sunday,West,Toys/Festival
+2023-12-19,Gift Box,124,Tuesday,South,Gifting
+2023-12-20,Diyas (Clay Lamps),100,Wednesday,West,Home Decor
+2023-12-24,Dry Fruits Box,39,Sunday,East,Gifting
+2023-12-25,Umbrella,91,Monday,West,Rain Gear
+2023-12-26,Blanket,97,Tuesday,Central,Home Utility
+2024-01-08,Onam Sadya Kit,107,Monday,South,Food Combo
+2024-01-08,Thermals,82,Monday,North,Clothing
+2024-01-13,Dry Fruits,94,Saturday,East,Gifting
+2024-01-16,Gift Wrapping Paper,95,Tuesday,South,Festival Utility
+2024-01-17,Hot Water Bag,143,Wednesday,East,Healthcare
+2024-01-20,Flower Garland,78,Saturday,East,Festival Utility
+2024-01-21,Chocolate Box,77,Sunday,Central,Gifting/Sweets
+2024-01-22,Raincoat,101,Monday,East,Rain Gear
+2024-01-22,Gift Box,123,Monday,North,Gifting
+2024-01-25,Banana Chips Pack,92,Thursday,North,Snack
+2024-01-26,Sweater,121,Friday,Central,Clothing
+2024-01-26,Flower Garland,101,Friday,West,Festival Utility
+2024-01-26,Gift Wrapping Paper,115,Friday,South,Festival Utility
+2024-01-27,Ganesh Idol,86,Saturday,Central,Festival Utility
+2024-01-28,White Kurtas,86,Sunday,Central,Clothing
+2024-01-29,Dry Fruits Box,73,Monday,North,Gifting
+2024-02-03,Pongal Sweet Pack,21,Saturday,West,Sweets
+2024-02-03,Flower Garland,71,Saturday,West,Festival Utility
+2024-02-04,Sewaiya Packets,138,Sunday,South,Sweets
+2024-02-06,Waterproof Boots,89,Tuesday,Central,Footwear
+2024-02-09,Water Bottle,93,Friday,East,Kitchen Utility
+2024-02-09,Decorative Wreath,48,Friday,North,Home Decor
+2024-02-15,Decorative Wreath,97,Thursday,East,Home Decor
+2024-02-19,Odomos (mosquito repellent),128,Monday,South,Personal Care
+2024-02-23,Thermals,100,Friday,South,Clothing
+2024-02-23,Deodorant (Dio),113,Friday,South,Personal Care
+2024-02-29,Water Bottle,139,Thursday,West,Kitchen Utility
+2024-02-29,White Clothing,65,Thursday,East,Clothing
+2024-03-01,Odomos (mosquito repellent),82,Friday,Central,Personal Care
+2024-03-04,Chocolate Gift Boxes,90,Monday,Central,Gifting
+2024-03-06,LED String Lights,53,Wednesday,Central,Home Decor
+2024-03-06,Fruit Cake,95,Wednesday,East,Food
+2024-03-08,Fruit Cake,120,Friday,North,Food
+2024-03-21,Blanket,111,Thursday,West,Home Utility
+2024-03-23,Onam Sadya Kit,109,Saturday,North,Food Combo
+2024-03-26,Air Conditioner (AC),111,Tuesday,Central,Home Appliance
+2024-03-27,Waterproof Boots,141,Wednesday,South,Footwear
+2024-04-04,Mosquito Net,131,Thursday,East,Home Utility
+2024-04-06,Santa Hat,89,Saturday,North,Apparel
+2024-04-11,Banana Chips Pack,63,Thursday,South,Snack
+2024-04-13,Pongal Sweet Pack,87,Saturday,West,Sweets
+2024-04-15,Sunscreen,98,Monday,East,Personal Care
+2024-04-17,Gift Wrapping Paper,112,Wednesday,Central,Festival Utility
+2024-04-18,Mithai Box,79,Thursday,North,Sweets
+2024-04-23,Water Bottle,139,Tuesday,East,Kitchen Utility
+2024-04-29,Thermals,108,Monday,North,Clothing
+2024-04-29,Decorative Wreath,100,Monday,South,Home Decor
+2024-05-01,Raincoat,38,Wednesday,East,Rain Gear
+2024-05-03,Kurta Pajama Set,92,Friday,West,Clothing
+2024-05-06,Umbrella,73,Monday,South,Rain Gear
+2024-05-09,Waterproof Boots,84,Thursday,South,Footwear
+2024-05-13,Ganesh Idol,80,Monday,West,Festival Utility
+2024-05-15,Santa Hat,56,Wednesday,North,Apparel
+2024-05-15,Dry Fruits,139,Wednesday,West,Gifting
+2024-05-21,Banana Chips Pack,71,Tuesday,West,Snack
+2024-05-25,Odomos (mosquito repellent),74,Saturday,North,Personal Care
+2024-05-27,Holi Colors,111,Monday,Central,Festival Utility
+2024-06-03,Raincoat,109,Monday,South,Rain Gear
+2024-06-04,Gift Boxes,92,Tuesday,Central,Gifting
+2024-06-14,Scarf,109,Friday,West,Clothing
+2024-06-16,Rakhi Thread,128,Sunday,East,Festival Utility
+2024-06-22,Gift Box,150,Saturday,East,Gifting
+2024-06-23,Scarf,132,Sunday,West,Clothing
+2024-06-28,Hot Water Bag,152,Friday,Central,Healthcare
+2024-06-29,Perfume Bottles,105,Saturday,Central,Gifting
+2024-06-30,Lip Balm,138,Sunday,South,Personal Care
+2024-07-02,Flower Garland,109,Tuesday,North,Festival Utility
+2024-07-02,Flower Garland,127,Tuesday,North,Festival Utility
+2024-07-03,Flower Garland,122,Wednesday,North,Festival Utility
+2024-07-03,Waterproof Boots,61,Wednesday,Central,Footwear
+2024-07-03,Umbrella,67,Wednesday,East,Rain Gear
+2024-07-11,Gift Wrapping Paper,93,Thursday,Central,Festival Utility
+2024-07-11,Sweater,32,Thursday,South,Clothing
+2024-07-11,Rakhi Thread,100,Thursday,North,Festival Utility
+2024-07-12,Rakhi Thread,96,Friday,South,Festival Utility
+2024-07-13,Rakhi Thread,96,Saturday,Central,Festival Utility
+2024-07-13,Holi Colors,157,Saturday,West,Festival Utility
+2024-07-14,Raincoat,178,Sunday,North,Rain Gear
+2024-07-14,White Clothing,113,Sunday,Central,Clothing
+2024-07-15,Gift Boxes,110,Monday,South,Gifting
+2024-07-16,Deodorant (Dio),96,Tuesday,South,Personal Care
+2024-07-26,Pongal Sweet Pack,147,Friday,South,Sweets
+2024-07-26,Ice Cream,111,Friday,South,Dessert
+2024-07-27,Body Oil,76,Saturday,South,Personal Care
+2024-07-27,Raincoat,59,Saturday,Central,Rain Gear
+2024-08-02,Dry Fruits Box,97,Friday,East,Gifting
+2024-08-03,Kurta Pajama Set,78,Saturday,West,Clothing
+2024-08-07,Water Gun (Pichkari),85,Wednesday,East,Toys/Festival
+2024-08-07,Agarbatti (Incense),103,Wednesday,South,Spiritual Item
+2024-08-08,Santa Hat,101,Thursday,North,Apparel
+2024-08-10,Rakhi Thread,113,Saturday,East,Festival Utility
+2024-08-14,Kurta Pajama Set,83,Wednesday,West,Clothing
+2024-08-16,Santa Hat,135,Friday,East,Apparel
+2024-08-17,Chocolate Box,132,Saturday,East,Gifting/Sweets
+2024-08-17,Chocolate Box,93,Saturday,South,Gifting/Sweets
+2024-08-21,Santa Hat,96,Wednesday,East,Apparel
+2024-08-22,Mithai Box,71,Thursday,West,Sweets
+2024-08-30,Air Conditioner (AC),102,Friday,South,Home Appliance
+2024-09-09,Body Oil,78,Monday,South,Personal Care
+2024-09-09,Dry Fruits Box,123,Monday,South,Gifting
+2024-09-10,Gift Boxes,124,Tuesday,North,Gifting
+2024-09-11,Hot Water Bag,117,Wednesday,North,Healthcare
+2024-09-20,Body Oil,101,Friday,West,Personal Care
+2024-10-01,Rangoli Colors,87,Tuesday,South,Festival Utility
+2024-10-07,Electric Lights,77,Monday,East,Home Decor
+2024-10-07,Lip Balm,91,Monday,East,Personal Care
+2024-10-08,Banana Chips Pack,85,Tuesday,West,Snack
+2024-10-10,Blanket,109,Thursday,East,Home Utility
+2024-10-22,Sugarcane Stick,95,Tuesday,South,Food/Festival
+2024-10-23,Lip Balm,110,Wednesday,North,Personal Care
+2024-10-25,Odomos (mosquito repellent),159,Friday,Central,Personal Care
+2024-10-26,Lip Balm,129,Saturday,Central,Personal Care
+2024-10-26,Fruit Cake,138,Saturday,West,Food
+2024-10-26,Body Oil,133,Saturday,East,Personal Care
+2024-11-04,Gift Box,97,Monday,West,Gifting
+2024-11-05,Ice Cream,121,Tuesday,West,Dessert
+2024-11-06,Scarf,82,Wednesday,South,Clothing
+2024-11-07,Diyas (Clay Lamps),56,Thursday,East,Home Decor
+2024-11-09,Onam Sadya Kit,140,Saturday,South,Food Combo
+2024-11-09,Modak Box,153,Saturday,West,Sweets
+2024-11-15,Lip Balm,94,Friday,Central,Personal Care
+2024-11-15,Rakhi Thread,117,Friday,East,Festival Utility
+2024-11-16,Mosquito Net,152,Saturday,West,Home Utility
+2024-11-17,Sugarcane Stick,89,Sunday,West,Food/Festival
+2024-11-18,Modak Box,93,Monday,North,Sweets
+2024-11-19,Sewaiya Packets,81,Tuesday,East,Sweets
+2024-11-20,Agarbatti (Incense),116,Wednesday,West,Spiritual Item
+2024-11-20,Sweater,120,Wednesday,East,Clothing
+2024-11-24,Modak Box,117,Sunday,East,Sweets
+2024-11-24,Fruit Cake,148,Sunday,East,Food
+2024-11-25,Sewaiya Packets,145,Monday,South,Sweets
+2024-11-27,Odomos (mosquito repellent),62,Wednesday,North,Personal Care
+2024-12-01,Pongal Sweet Pack,67,Sunday,Central,Sweets
+2024-12-05,Onam Sadya Kit,56,Thursday,West,Food Combo
+2024-12-09,Water Bottle,124,Monday,South,Kitchen Utility
+2024-12-11,Mosquito Net,111,Wednesday,East,Home Utility
+2024-12-14,Rakhi Thread,134,Saturday,South,Festival Utility
+2024-12-23,Scarf,114,Monday,East,Clothing
+2024-12-26,LED String Lights,98,Thursday,Central,Home Decor
+2024-12-30,Modak Box,84,Monday,East,Sweets
+2024-12-31,Sunscreen,58,Tuesday,South,Personal Care
+2025-01-06,Traditional Dhoti,57,Monday,North,Clothing
+2025-01-07,Sugarcane Stick,70,Tuesday,East,Food/Festival
+2025-01-08,Water Gun (Pichkari),125,Wednesday,Central,Toys/Festival
+2025-01-09,Banana Chips Pack,153,Thursday,West,Snack
+2025-01-14,White Clothing,49,Tuesday,South,Clothing
+2025-01-17,LED String Lights,84,Friday,North,Home Decor
+2025-01-21,Ganesh Idol,91,Tuesday,West,Festival Utility
+2025-01-22,Onam Sadya Kit,138,Wednesday,Central,Food Combo
+2025-01-25,Scarf,113,Saturday,West,Clothing
+2025-01-29,Modak Box,82,Wednesday,Central,Sweets
+2025-01-31,Mosquito Net,99,Friday,East,Home Utility
+2025-02-02,Gift Box,94,Sunday,West,Gifting
+2025-02-03,White Kurtas,107,Monday,East,Clothing
+2025-02-07,Gift Boxes,123,Friday,Central,Gifting
+2025-02-11,Raincoat,85,Tuesday,South,Rain Gear
+2025-02-13,Personal Care Kit,113,Thursday,North,Gifting
+2025-02-15,Modak Box,77,Saturday,Central,Sweets
+2025-02-16,Sweet Box,88,Sunday,Central,Sweets
+2025-02-17,Sugarcane Stick,85,Monday,West,Food/Festival
+2025-02-17,Modak Box,36,Monday,South,Sweets
+2025-02-18,Kurta Pajama Set,68,Tuesday,East,Clothing
+2025-02-20,Blanket,65,Thursday,Central,Home Utility
+2025-02-27,Air Conditioner (AC),119,Thursday,Central,Home Appliance
+2025-02-28,Banana Chips Pack,138,Friday,North,Snack
+2025-03-01,Mithai Box,94,Saturday,North,Sweets
+2025-03-03,Holi Colors,112,Monday,North,Festival Utility
+2025-03-08,Hot Water Bag,106,Saturday,North,Healthcare
+2025-03-09,Onam Sadya Kit,79,Sunday,West,Food Combo
+2025-03-11,Modak Box,66,Tuesday,Central,Sweets
+2025-03-14,Traditional Dhoti,123,Friday,North,Clothing
+2025-03-20,Banana Chips Pack,121,Thursday,Central,Snack
+2025-03-22,Hot Water Bag,124,Saturday,East,Healthcare
+2025-03-22,Sunscreen,101,Saturday,North,Personal Care
+2025-03-23,Gift Wrapping Paper,67,Sunday,South,Festival Utility
+2025-03-26,Traditional Dhoti,101,Wednesday,East,Clothing
+2025-03-28,Banana Chips Pack,82,Friday,East,Snack
+2025-04-02,White Clothing,48,Wednesday,South,Clothing
+2025-04-04,Ganesh Idol,149,Friday,South,Festival Utility
+2025-04-07,White Clothing,112,Monday,West,Clothing
+2025-04-11,Onam Sadya Kit,98,Friday,South,Food Combo
+2025-04-14,Raincoat,102,Monday,South,Rain Gear
+2025-04-16,Thermals,99,Wednesday,South,Clothing
+2025-04-20,Holi Colors,74,Sunday,West,Festival Utility
+2025-04-22,Diyas (Clay Lamps),117,Tuesday,South,Home Decor
+2025-04-24,Flower Garland,98,Thursday,Central,Festival Utility
+2025-04-28,Holi Colors,79,Monday,North,Festival Utility
+2025-05-01,Santa Hat,85,Thursday,North,Apparel
+2025-05-03,Diyas (Clay Lamps),29,Saturday,Central,Home Decor
+2025-05-05,Pongal Sweet Pack,83,Monday,North,Sweets
+2025-05-06,Water Bottle,144,Tuesday,North,Kitchen Utility
+2025-05-09,Dry Fruits Box,129,Friday,Central,Gifting
+2025-05-11,Sweet Box,115,Sunday,East,Sweets
+2025-05-12,Water Bottle,141,Monday,South,Kitchen Utility
+2025-05-12,Holi Colors,73,Monday,North,Festival Utility
+2025-05-13,Mithai Box,110,Tuesday,East,Sweets
+2025-05-16,Modak Box,110,Friday,South,Sweets
+2025-05-17,Santa Hat,144,Saturday,North,Apparel
+2025-05-19,Umbrella,92,Monday,Central,Rain Gear
+2025-05-23,Mithai Box,136,Friday,South,Sweets
+2025-05-31,Holi Colors,137,Saturday,South,Festival Utility
+2025-05-31,Scarf,80,Saturday,Central,Clothing
+2025-06-02,Odomos (mosquito repellent),130,Monday,West,Personal Care
+2025-06-03,Water Gun (Pichkari),10,Tuesday,West,Toys/Festival
+2025-06-05,Gift Box,130,Thursday,North,Gifting
+2025-06-07,Sewaiya Packets,71,Saturday,Central,Sweets
+2025-06-11,Ganesh Idol,48,Wednesday,West,Festival Utility
+2025-06-13,Hot Water Bag,103,Friday,East,Healthcare
+2025-06-14,Odomos (mosquito repellent),48,Saturday,South,Personal Care
+2025-06-17,Flower Garland,49,Tuesday,North,Festival Utility
+2025-06-19,Sweet Box,80,Thursday,North,Sweets
+2025-06-24,Air Conditioner (AC),74,Tuesday,North,Home Appliance
+2025-06-25,Gift Boxes,155,Wednesday,North,Gifting
+2025-06-25,Onam Sadya Kit,88,Wednesday,Central,Food Combo
+2025-06-28,Sugarcane Stick,100,Saturday,Central,Food/Festival
+2025-06-30,Cold Drink,99,Monday,Central,Beverage

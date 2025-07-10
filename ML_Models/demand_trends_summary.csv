@@ -1,0 +1,55 @@
+product,last_week_sales,prophet_forecast,lstm_forecast,prophet_trend,lstm_trend
+Decorative Wreath,108,19.17,45.31,Decrease,Decrease
+Gift Box,112,42.47,32.46,Decrease,Decrease
+LED String Lights,65,60.47,-28.27,Stable,Decrease
+Air Conditioner (AC),82,30.58,-0.86,Decrease,Decrease
+Lip Balm,99,68.79,16.93,Decrease,Decrease
+Fruit Cake,90,30.07,7.59,Decrease,Decrease
+Body Oil,77,42.99,9.54,Decrease,Decrease
+Holi Colors,241,88.73,-2.3,Decrease,Decrease
+Thermals,68,18.41,16.56,Decrease,Decrease
+Sunscreen,103,45.2,13.91,Decrease,Decrease
+Electric Lights,93,28.99,10.47,Decrease,Decrease
+Scarf,68,16.05,15.24,Decrease,Decrease
+Deodorant (Dio),220,39.8,14.12,Decrease,Decrease
+Personal Care Kit,55,4.34,30.55,Decrease,Decrease
+Hot Water Bag,193,85.74,3.15,Decrease,Decrease
+Dry Fruits Box,100,29.81,17.56,Decrease,Decrease
+Modak Box,40,27.36,8.11,Decrease,Decrease
+Santa Hat,99,11.14,13.67,Decrease,Decrease
+Raincoat,191,84.92,-1.63,Decrease,Decrease
+Ganesh Idol,277,22.84,9.05,Decrease,Decrease
+Banana Chips Pack,168,64.47,23.63,Decrease,Decrease
+Mosquito Net,91,18.29,6.42,Decrease,Decrease
+Water Gun (Pichkari),10,6.06,9.91,Decrease,Stable
+Cold Drink,99,44.76,18.41,Decrease,Decrease
+Agarbatti (Incense),100,29.22,22.18,Decrease,Decrease
+Chocolate Box,153,137.12,128.18,Decrease,Decrease
+Kurta Pajama Set,230,107.14,22.69,Decrease,Decrease
+Sugarcane Stick,100,67.43,24.2,Decrease,Decrease
+Traditional Dhoti,85,18.31,5.02,Decrease,Decrease
+Onam Sadya Kit,88,23.51,9.56,Decrease,Decrease
+Dry Fruits,73,63.9,13.0,Decrease,Decrease
+Brass Pot,106,4.81,13.84,Decrease,Decrease
+Water Bottle,141,56.87,14.85,Decrease,Decrease
+White Clothing,55,28.59,0.85,Decrease,Decrease
+Perfume Bottles,117,50.01,7.68,Decrease,Decrease
+Fan,84,26.6,8.01,Decrease,Decrease
+Pongal Sweet Pack,70,-7.55,2.73,Decrease,Decrease
+Rangoli Colors,132,0.42,24.89,Decrease,Decrease
+Flower Garland,286,101.23,34.8,Decrease,Decrease
+Mithai Box,267,48.44,29.79,Decrease,Decrease
+Sweet Box,106,26.29,19.43,Decrease,Decrease
+Chocolate Gift Boxes,141,31.46,16.28,Decrease,Decrease
+Waterproof Boots,44,29.33,14.98,Decrease,Decrease
+Gift Boxes,155,114.29,24.05,Decrease,Decrease
+Diyas (Clay Lamps),132,66.11,5.67,Decrease,Decrease
+Gift Wrapping Paper,120,58.2,10.82,Decrease,Decrease
+Odomos (mosquito repellent),84,24.47,12.53,Decrease,Decrease
+Ice Cream,129,65.8,24.17,Decrease,Decrease
+Umbrella,146,18.23,23.52,Decrease,Decrease
+Rakhi Thread,95,115.14,103.32,Increase,Stable
+White Kurtas,75,51.46,10.9,Decrease,Decrease
+Sweater,149,64.31,17.5,Decrease,Decrease
+Blanket,85,17.71,14.39,Decrease,Decrease
+Sewaiya Packets,198,79.23,30.13,Decrease,Decrease
