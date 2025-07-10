@@ -13,6 +13,7 @@
   "packageManager": "pnpm@10.13.1",
   "type": "module",
   "dependencies": {
+    "cors": "^2.8.5",
     "csv": "^6.3.11",
     "csv-parser": "^3.2.0",
     "dotenv": "^16.6.1",
