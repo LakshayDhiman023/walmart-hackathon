@@ -1,0 +1,8 @@
+flask
+flask_pymongo
+python-dotenv
+pandas
+numpy
+haversine
+scikit-learn
+ortools 

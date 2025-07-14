@@ -30,21 +30,21 @@ const ManagerLogin = () => {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-50">
-      <div className="bg-white rounded-2xl shadow-lg p-8 w-full max-w-md">
+    <div className="min-h-screen flex items-center justify-center bg-[#F9FAFB]">
+      <div className="bg-white rounded-2xl shadow-lg p-8 w-full max-w-md border border-[#E5E7EB]">
         <div className="flex flex-col items-center mb-6">
           {/* Walmart logo placeholder */}
-          <span className="text-4xl font-bold text-blue-600">Walmart</span>
-          <span className="ml-2 text-4xl text-yellow-400">*</span>
+          <span className="text-4xl font-bold text-[#0071CE]">Walmart</span>
+          <span className="ml-2 text-4xl text-[#FFC220]">*</span>
         </div>
-        <form className="bg-white rounded-xl border p-6" onSubmit={handleSubmit}>
-          <h2 className="text-2xl font-semibold text-center mb-4">Manager Login</h2>
+        <form className="bg-white rounded-xl border border-[#E5E7EB] p-6" onSubmit={handleSubmit}>
+          <h2 className="text-2xl font-bold text-center mb-4 text-[#1F2937]">Manager Login</h2>
           <div className="mb-4">
-            <label className="block text-gray-700 mb-1" htmlFor="email">Email address</label>
+            <label className="block text-[#4B5563] mb-1" htmlFor="email">Email address</label>
             <input
               id="email"
               type="email"
-              className="w-full px-3 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="w-full px-3 py-2 border border-[#E5E7EB] rounded focus:outline-none focus:ring-2 focus:ring-[#0071CE] bg-white text-[#1F2937]"
               value={email}
               onChange={e => setEmail(e.target.value)}
               required
@@ -52,13 +52,13 @@ const ManagerLogin = () => {
           </div>
           <div className="mb-4">
             <div className="flex justify-between items-center">
-              <label className="block text-gray-700 mb-1" htmlFor="password">Password</label>
-              <a href="#" className="text-blue-600 text-sm hover:underline">Forgot password?</a>
+              <label className="block text-[#4B5563] mb-1" htmlFor="password">Password</label>
+              <a href="#" className="text-[#0071CE] text-sm hover:underline">Forgot password?</a>
             </div>
             <input
               id="password"
               type="password"
-              className="w-full px-3 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="w-full px-3 py-2 border border-[#E5E7EB] rounded focus:outline-none focus:ring-2 focus:ring-[#0071CE] bg-white text-[#1F2937]"
               value={password}
               onChange={e => setPassword(e.target.value)}
               required
@@ -72,12 +72,12 @@ const ManagerLogin = () => {
               checked={rememberMe}
               onChange={e => setRememberMe(e.target.checked)}
             />
-            <label htmlFor="rememberMe" className="text-gray-700">Remember me</label>
+            <label htmlFor="rememberMe" className="text-[#4B5563]">Remember me</label>
           </div>
-          {error && <div className="mb-2 text-red-600 text-sm text-center">{error}</div>}
+          {error && <div className="mb-2 text-[#DC3545] text-sm text-center">{error}</div>}
           <button
             type="submit"
-            className="w-full bg-blue-600 text-white py-2 rounded font-semibold text-lg hover:bg-blue-700 transition"
+            className="w-full bg-[#0071CE] text-white py-2 rounded font-bold text-lg hover:bg-[#FFC220] hover:text-[#1F2937] transition"
             disabled={loading}
           >
             {loading ? 'Signing in...' : 'Sign in'}

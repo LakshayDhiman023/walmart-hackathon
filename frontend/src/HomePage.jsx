@@ -37,16 +37,16 @@ function getStockRunOut(sales_history) {
 }
 
 const DemandBadge = ({ trend }) => {
-  if (trend === 'increasing') return <span className="bg-green-100 text-green-700 px-3 py-1 rounded font-medium">Demand Increasing</span>;
-  if (trend === 'decreasing') return <span className="bg-red-100 text-red-700 px-3 py-1 rounded font-medium">Demand Decreasing</span>;
-  return <span className="bg-gray-100 text-gray-700 px-3 py-1 rounded font-medium">Stable</span>;
+  if (trend === 'increasing') return <span className="inline-block bg-[#E6F4EA] text-[#28A745] px-3 py-1 rounded-full font-semibold text-xs border border-[#28A745]/20">Increasing</span>;
+  if (trend === 'decreasing') return <span className="inline-block bg-[#FDE8E8] text-[#DC3545] px-3 py-1 rounded-full font-semibold text-xs border border-[#DC3545]/20">Decreasing</span>;
+  return <span className="inline-block bg-[#F0F0F0] text-[#6C757D] px-3 py-1 rounded-full font-semibold text-xs border border-[#E5E7EB]">Stable</span>;
 };
 
 const PercentChange = ({ percent, trend }) => {
-  const color = trend === 'increasing' ? 'text-green-600' : trend === 'decreasing' ? 'text-red-600' : 'text-gray-600';
+  const color = trend === 'increasing' ? 'text-[#28A745]' : trend === 'decreasing' ? 'text-[#DC3545]' : 'text-[#0071CE]';
   const sign = percent > 0 ? '+' : '';
   return (
-    <div className={`text-sm font-semibold mt-1 ${color}`}>{sign}{percent.toFixed(1)}%</div>
+    <div className={`text-base font-bold mt-1 ${color}`}>{sign}{percent.toFixed(1)}%</div>
   );
 };
 
@@ -54,18 +54,24 @@ const ProductCard = ({ product }) => {
   const trend = product.consensus_trend;
   const percent = product.consensus_percent;
   return (
-    <div className="bg-white rounded-xl shadow p-4 flex flex-col items-center border">
-      <div className="text-lg font-semibold mb-2 text-center">{product.product_name}</div>
-      <div className="w-full h-16 mb-2">
+    <div className="bg-white rounded-2xl shadow-sm hover:shadow-md transition-shadow border border-[#E5E7EB] p-7 flex flex-col items-center group cursor-pointer min-h-[260px] focus-within:ring-2 focus-within:ring-[#0071CE]/30">
+      <div className="flex items-center gap-2 mb-2">
+        <span className="inline-block w-7 h-7 rounded-full bg-[#0071CE]/10 flex items-center justify-center">
+          {/* Icon: box */}
+          <svg width="22" height="22" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="text-[#0071CE]"><rect x="3" y="7" width="18" height="13" rx="2" strokeWidth="2" /><path d="M16 3v4M8 3v4" strokeWidth="2" /></svg>
+        </span>
+        <div className="text-xl font-bold text-[#1F2937] text-center flex-1">{product.product_name}</div>
+      </div>
+      <div className="w-full h-20 mb-2">
         <ResponsiveContainer width="100%" height="100%">
           <LineChart data={product.sales_history} margin={{ top: 10, right: 10, left: 0, bottom: 0 }}>
-            <Line type="monotone" dataKey="units_sold" stroke={trend === 'increasing' ? '#22c55e' : trend === 'decreasing' ? '#ef4444' : '#64748b'} strokeWidth={2} dot={false} />
+            <Line type="monotone" dataKey="units_sold" stroke={trend === 'increasing' ? '#28A745' : trend === 'decreasing' ? '#DC3545' : '#0071CE'} strokeWidth={3} dot={false} />
           </LineChart>
         </ResponsiveContainer>
       </div>
       <DemandBadge trend={trend} />
       <PercentChange percent={percent} trend={trend} />
-      <div className="text-gray-500 text-sm mt-1">Stock runs out {product.stock_run_out !== 'N/A' && product.stock_run_out !== 'Unknown' ? `in ${product.stock_run_out || 'N/A'} days` : product.stock_run_out}</div>
+      <div className="text-[#4B5563] text-base mt-1 font-medium">Stock runs out {product.stock_run_out !== 'N/A' && product.stock_run_out !== 'Unknown' ? `in ${product.stock_run_out || 'N/A'} days` : product.stock_run_out}</div>
     </div>
   );
 };
@@ -110,11 +116,11 @@ const HomePage = () => {
     setSelectedProduct(updated);
   };
 
-  if (loading) return <div className="flex justify-center items-center h-screen">Loading...</div>;
-  if (error) return <div className="flex justify-center items-center h-screen text-red-600 font-semibold">{error}</div>;
+  if (loading) return <div className="flex justify-center items-center h-screen bg-[#F9FAFB] text-[#1F2937]">Loading...</div>;
+  if (error) return <div className="flex justify-center items-center h-screen text-[#DC3545] font-semibold bg-[#F9FAFB]">{error}</div>;
 
   return (
-    <div className="min-h-screen bg-gray-50 p-6">
+    <div className="min-h-screen bg-[#F9FAFB] p-6 text-[#1F2937]">
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {products.map((product, idx) => (
           <div key={product._id || idx} onClick={() => handleCardClick(product)} className="cursor-pointer">
